@@ -1,0 +1,44 @@
+body{background-color: greenyellow;}
+#container{
+    display: flex;
+    justify-content: center;
+}
+#tb{
+    width: 600px;
+    height: 600px;
+    background-color: greenyellow;
+    border: 50px red solid;
+    border-radius: 50%;
+    border-color: red transparent red transparent;
+    position: absolute;
+    right: 500px;
+    top: 500px;
+    left: 500px;
+}
+#mid{
+    width: 400px;
+    height: 400px;
+    background-color: greenyellow;
+    border: 50px yellow solid;
+    border-radius: 50%;
+    border-color: yellow transparent yellow transparent;
+    position: absolute;
+    right: 600px;
+    top: 600px;
+    left: 600px
+
+}
+#side{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    border: 30px solid;
+    border-radius: 50%;
+    border-color:transparent black transparent black;
+    position: absolute;
+    right: 720px;
+    top: 720px;
+    left: 720px;
+
+}
+
